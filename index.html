@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Wordle</h1>
+    <div class="grid">
+        <div class="row" id="0">
+            <input class="cell"  type="text" maxlength="1"></input>
+            <input class="cell"  type="text" maxlength="1"></input>
+            <input class="cell"  type="text" maxlength="1"></input>
+            <input class="cell"  type="text" maxlength="1"></input>
+            <input class="cell"  type="text" maxlength="1"></input>
+        </div>
+        <div class="row" id="1">
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+        </div>
+        <div class="row" id="2">
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+        </div>
+        <div class="row" id="3">
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+        </div>
+        <div class="row" id="4">
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+        </div>
+        <div class="row" id="5">
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+            <input class="cell"  type="text" maxlength="1" readonly></input>
+        </div>
+    </div>
+    <button id="Submit">Submit Guess</button>
+    <div id="guess-left">Remaining Guesses:</div>
+    <div id="error-message"></div>
+    <div id="game-over">Game Over</div>
+    <div id="game-won">You Won!</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

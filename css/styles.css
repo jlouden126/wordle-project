@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eee;
+}
+
+.grid {
+    display: table;
+    border-spacing: 5px
+  }
+
+.row {
+    display: table-row
+    
+}
+
+.cell {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: grey;
+    display: table-cell;
+    font-size: 300%;
+    text-transform:uppercase;
+   
+}
+
+
+
+#error-message {
+    color: red;
+    display: none;
+}
+  
+
+#game-over {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 2px 2px 5px black;
+}
+
+#game-won {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: bold;
+    color: gold;
+    text-shadow: 2px 2px 5px black;
+}
